@@ -1,0 +1,160 @@
+2025-10-18T22:12:41.247Z [INFO]: Validating request schema
+2025-10-18T22:12:48.777Z [INFO]: Verifying token and role
+2025-10-18T22:12:48.779Z [WARN]: No authorization header provided
+2025-10-18T22:30:11.580Z [INFO]: Verifying token and role
+2025-10-18T22:30:11.585Z [ERROR]: Failed to authenticate token
+2025-10-18T22:31:32.328Z [INFO]: Verifying token and role
+2025-10-18T22:31:32.330Z [ERROR]: Failed to authenticate token
+2025-10-18T22:33:15.167Z [INFO]: Validating request schema
+2025-10-18T22:33:20.109Z [INFO]: Validating request schema
+2025-10-18T22:33:33.798Z [INFO]: Verifying token and role
+2025-10-18T22:33:33.805Z [ERROR]: Failed to authenticate token
+2025-10-18T22:34:08.901Z [INFO]: Validating request schema
+2025-10-18T22:34:11.288Z [INFO]: Validating request schema
+2025-10-18T22:34:20.557Z [INFO]: Validating request schema
+2025-10-18T22:34:29.838Z [INFO]: Validating request schema
+2025-10-18T22:34:31.276Z [INFO]: Verifying token and role
+2025-10-18T22:34:31.277Z [INFO]: Authorization header found
+2025-10-18T22:34:31.278Z [INFO]: Token extracted from authorization header
+2025-10-18T22:34:31.296Z [INFO]: Token and role verified successfully
+2025-10-18T22:34:31.303Z [INFO]: Schema validation passed
+2025-10-18T22:35:07.349Z [INFO]: Validating request schema
+2025-10-18T22:35:08.810Z [INFO]: Verifying token and role
+2025-10-18T22:35:08.822Z [INFO]: Token and role verified successfully
+2025-10-18T22:35:08.828Z [INFO]: Schema validation passed
+2025-10-18T22:36:26.418Z [INFO]: Validating request schema
+2025-10-18T22:36:29.565Z [INFO]: Verifying token and role
+2025-10-18T22:36:29.573Z [INFO]: Token and role verified successfully
+2025-10-18T22:36:29.578Z [INFO]: Schema validation passed
+2025-10-18T22:37:20.527Z [INFO]: Verifying token and role
+2025-10-18T22:37:20.546Z [INFO]: Token and role verified successfully
+2025-10-18T22:37:20.548Z [INFO]: Validating request schema
+2025-10-18T22:37:20.554Z [INFO]: Schema validation passed
+2025-10-18T22:37:51.335Z [INFO]: Verifying token and role
+2025-10-18T22:37:51.351Z [INFO]: Token and role verified successfully
+2025-10-18T22:37:51.352Z [INFO]: Validating request schema
+2025-10-18T22:37:51.366Z [INFO]: Schema validation passed
+2025-10-18T22:39:40.429Z [INFO]: Verifying token and role
+2025-10-18T22:39:40.448Z [INFO]: Token and role verified successfully
+2025-10-18T22:41:02.561Z [INFO]: Verifying token and role
+2025-10-18T22:41:02.570Z [INFO]: Token and role verified successfully
+2025-10-18T22:41:37.618Z [INFO]: Verifying token and role
+2025-10-18T22:41:37.633Z [INFO]: Token and role verified successfully
+2025-10-18T22:42:30.282Z [INFO]: Verifying token and role
+2025-10-18T22:42:30.299Z [INFO]: Token and role verified successfully
+2025-10-18T22:44:20.011Z [INFO]: Verifying token and role
+2025-10-18T22:44:20.029Z [INFO]: Token and role verified successfully
+2025-10-18T22:44:20.046Z [WARN]: Schema validation failed: "rest_name" is required, "rest_address" is required
+2025-10-18T22:45:14.742Z [INFO]: Verifying token and role
+2025-10-18T22:45:14.747Z [INFO]: Token and role verified successfully
+2025-10-18T22:47:22.848Z [INFO]: Verifying token and role
+2025-10-18T22:47:22.866Z [INFO]: Token and role verified successfully
+2025-10-18T22:47:22.879Z [INFO]: Registering new restaurant
+2025-10-18T22:47:23.683Z [ERROR]: Error registering restaurant column "createdAt" of relation "restaurants" does not exist
+2025-10-18T22:49:27.563Z [INFO]: Verifying token and role
+2025-10-18T22:49:27.568Z [INFO]: Token and role verified successfully
+2025-10-18T22:49:27.571Z [INFO]: Registering new restaurant
+2025-10-18T22:49:28.196Z [ERROR]: Error registering restaurant column "updatedAt" of relation "restaurants" does not exist
+2025-10-18T22:49:55.547Z [INFO]: Verifying token and role
+2025-10-18T22:49:55.552Z [INFO]: Token and role verified successfully
+2025-10-18T22:49:55.554Z [INFO]: Registering new restaurant
+2025-10-18T22:49:56.237Z [INFO]: Restaurant created with ID: 2
+2025-10-18T22:53:07.812Z [INFO]: Verifying token and role
+2025-10-18T22:53:07.816Z [ERROR]: Failed to authenticate token
+2025-10-18T22:53:34.931Z [INFO]: Verifying token and role
+2025-10-18T22:53:34.935Z [INFO]: Token and role verified successfully
+2025-10-18T22:53:35.002Z [WARN]: Schema validation failed: "rest_coords.type" is required, "rest_coords.coordinates" is required, "res_reviews" must be an array, "res_policy" must be a string
+2025-10-18T22:55:09.411Z [INFO]: Verifying token and role
+2025-10-18T22:55:09.437Z [INFO]: Token and role verified successfully
+2025-10-18T22:55:09.442Z [INFO]: Registering new restaurant
+2025-10-18T22:55:10.134Z [ERROR]: Error registering restaurant function st_geomfromgeojson(unknown) does not exist
+2025-10-18T22:56:20.204Z [INFO]: Verifying token and role
+2025-10-18T22:56:20.220Z [INFO]: Token and role verified successfully
+2025-10-18T22:56:20.241Z [INFO]: Registering new restaurant
+2025-10-18T22:56:20.245Z [ERROR]: Error registering restaurant sequelize is not defined
+2025-10-18T22:56:34.520Z [INFO]: Verifying token and role
+2025-10-18T22:56:34.547Z [INFO]: Token and role verified successfully
+2025-10-18T22:56:34.567Z [INFO]: Registering new restaurant
+2025-10-18T22:56:36.217Z [ERROR]: Error registering restaurant function st_geomfromgeojson(unknown) does not exist
+2025-10-18T22:57:26.581Z [INFO]: Verifying token and role
+2025-10-18T22:57:26.601Z [INFO]: Token and role verified successfully
+2025-10-18T22:57:26.622Z [INFO]: Registering new restaurant
+2025-10-18T22:57:26.748Z [ERROR]: Error registering restaurant function st_geomfromgeojson(unknown) does not exist
+2025-10-18T22:59:44.669Z [INFO]: Verifying token and role
+2025-10-18T22:59:44.674Z [INFO]: Token and role verified successfully
+2025-10-18T22:59:44.678Z [INFO]: Registering new restaurant
+2025-10-18T22:59:45.376Z [ERROR]: Error registering restaurant column "rest_coords" is of type point but expression is of type geometry
+2025-10-18T23:00:27.277Z [INFO]: Verifying token and role
+2025-10-18T23:00:27.291Z [INFO]: Token and role verified successfully
+2025-10-18T23:00:27.311Z [INFO]: Registering new restaurant
+2025-10-18T23:00:27.315Z [ERROR]: Error registering restaurant coords is not defined
+2025-10-18T23:00:59.016Z [INFO]: Verifying token and role
+2025-10-18T23:00:59.033Z [INFO]: Token and role verified successfully
+2025-10-18T23:00:59.054Z [INFO]: Registering new restaurant
+2025-10-18T23:00:59.057Z [ERROR]: Error registering restaurant coordinates is not defined
+2025-10-18T23:02:07.187Z [INFO]: Verifying token and role
+2025-10-18T23:02:07.208Z [INFO]: Token and role verified successfully
+2025-10-18T23:02:07.223Z [INFO]: Registering new restaurant
+2025-10-18T23:02:07.562Z [ERROR]: Error registering restaurant column "rest_coords" is of type point but expression is of type geometry
+2025-10-18T23:02:51.199Z [INFO]: Verifying token and role
+2025-10-18T23:02:51.216Z [INFO]: Token and role verified successfully
+2025-10-18T23:02:51.237Z [INFO]: Registering new restaurant
+2025-10-18T23:02:51.953Z [ERROR]: Error registering restaurant column "rest_coords" is of type point but expression is of type geometry
+2025-10-18T23:03:08.817Z [INFO]: Verifying token and role
+2025-10-18T23:03:08.823Z [INFO]: Token and role verified successfully
+2025-10-18T23:03:08.830Z [INFO]: Registering new restaurant
+2025-10-18T23:03:09.497Z [ERROR]: Error registering restaurant column "rest_coords" is of type point but expression is of type geometry
+2025-10-18T23:04:15.765Z [INFO]: Verifying token and role
+2025-10-18T23:04:15.784Z [INFO]: Token and role verified successfully
+2025-10-18T23:04:15.803Z [INFO]: Registering new restaurant
+2025-10-18T23:04:16.546Z [INFO]: Restaurant created with ID: 3
+2025-10-18T23:12:52.253Z [INFO]: Verifying token and role
+2025-10-18T23:12:52.261Z [WARN]: No authorization header provided
+2025-10-18T23:12:59.934Z [INFO]: Verifying token and role
+2025-10-18T23:12:59.942Z [INFO]: Token and role verified successfully
+2025-10-18T23:12:59.944Z [INFO]: Fetching the restaurants
+2025-10-19T20:53:07.737Z [INFO]: Verifying token and role
+2025-10-19T20:53:07.757Z [ERROR]: Failed to authenticate token
+2025-10-19T20:53:15.207Z [INFO]: Verifying token and role
+2025-10-19T20:53:15.212Z [INFO]: Token and role verified successfully
+2025-10-19T20:53:15.213Z [INFO]: Fetching restaurants
+2025-10-19T20:58:15.752Z [ERROR]: Error creating category Cannot destructure property 'restaurant_id' of 'req.body' as it is undefined.
+2025-10-19T21:00:29.721Z [ERROR]: Error creating category column "createdAt" does not exist
+2025-10-19T21:15:43.795Z [ERROR]: Error creating category column "updatedAt" does not exist
+2025-10-19T21:16:01.134Z [INFO]: Category created with ID: 1
+2025-10-19T21:16:30.945Z [INFO]: Category created with ID: 2
+2025-10-19T21:22:25.479Z [ERROR]: Error fetching dishes column Dish.createdAt does not exist
+2025-10-19T21:23:12.377Z [ERROR]: Error fetching dishes column Dish.updatedAt does not exist
+2025-10-19T21:23:45.656Z [ERROR]: Error fetching dishes column Subcategory.createdAt does not exist
+2025-10-19T21:24:13.405Z [ERROR]: Error fetching dishes column Subcategory.updatedAt does not exist
+2025-10-19T21:24:34.969Z [ERROR]: Error creating dish Cannot destructure property 'restaurant_id' of 'req.body' as it is undefined.
+2025-10-19T21:27:56.551Z [INFO]: Dish created with ID: 1
+2025-10-19T21:28:23.154Z [INFO]: Dish created with ID: 2
+2025-10-19T21:31:34.855Z [INFO]: Subcategory created with ID: 1
+2025-10-19T21:32:39.862Z [INFO]: Dish created with ID: 3
+2025-10-19T21:50:45.514Z [INFO]: Verifying token and role
+2025-10-19T21:50:45.524Z [ERROR]: Failed to authenticate token
+2025-10-19T21:51:06.186Z [INFO]: Verifying token and role
+2025-10-19T21:51:06.195Z [ERROR]: Failed to authenticate token
+2025-10-19T21:51:44.085Z [INFO]: Verifying token and role
+2025-10-19T21:51:44.099Z [ERROR]: Failed to authenticate token
+2025-10-19T21:53:05.560Z [INFO]: Verifying token and role
+2025-10-19T21:53:05.564Z [INFO]: Token and role verified successfully
+2025-10-19T21:56:46.625Z [INFO]: Verifying token and role
+2025-10-19T21:56:46.629Z [INFO]: Token and role verified successfully
+2025-10-19T21:57:55.795Z [INFO]: Verifying token and role
+2025-10-19T21:57:55.799Z [ERROR]: Failed to authenticate token
+2025-10-19T21:59:03.904Z [INFO]: Verifying token and role
+2025-10-19T21:59:03.913Z [ERROR]: Failed to authenticate token
+2025-10-19T21:59:13.925Z [INFO]: Verifying token and role
+2025-10-19T21:59:13.929Z [ERROR]: Failed to authenticate token
+2025-10-19T21:59:46.772Z [INFO]: Verifying token and role
+2025-10-19T21:59:46.784Z [ERROR]: Failed to authenticate token
+2025-10-19T22:02:54.743Z [INFO]: Verifying token and role
+2025-10-19T22:02:54.755Z [ERROR]: Failed to authenticate token
+2025-10-19T22:03:28.373Z [INFO]: Verifying token and role
+2025-10-19T22:03:28.389Z [ERROR]: Failed to authenticate token jwt expired
+2025-10-19T22:04:49.065Z [INFO]: Verifying token and role
+2025-10-19T22:04:49.069Z [INFO]: Token and role verified successfully
+2025-10-19T22:06:52.900Z [INFO]: Verifying token and role
+2025-10-19T22:06:52.902Z [INFO]: Token and role verified successfully
